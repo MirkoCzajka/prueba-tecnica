@@ -1,0 +1,56 @@
+/* Sistema de Gestión de Noticias - Estilos */
+
+.news-card {
+	transition: transform 0.2s;
+}
+
+.news-card:hover {
+	transform: translateY(-2px);
+}
+
+.thumbnail-preview {
+	max-width: 80px;
+	max-height: 80px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.table th {
+	vertical-align: middle;
+	border-top: none;
+}
+
+.table td {
+	vertical-align: middle;
+}
+
+.description-cell {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+.actions-cell {
+	min-width: 120px;
+}
+
+.loading {
+	display: none;
+}
+
+.modal-backdrop {
+	z-index: 1040;
+}
+
+.modal {
+	z-index: 1050;
+}
+
+.error-message {
+	color: #dc3545;
+	font-size: 0.875rem;
+}
+
+.success-message {
+	color: #198754;
+	font-size: 0.875rem;
+}
